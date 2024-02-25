@@ -1,0 +1,28 @@
+.myDiv {
+    border: 5px outset red;
+    background-color: lightblue;
+    text-align: center;
+  }
+  body {
+    color: red;
+  }
+  
+  h1 {
+    color: #00ff00;
+  }
+  
+.lp {
+    color: rgb(0,0,255);
+  }
+
+  #anie{
+    color:blueviolet
+  }
+
+  .lp {background-color: coral;}
+
+.myDiv > p {
+    background-color: antiquewhite;
+    width: fit-content;
+    margin: 0 auto;
+}
