@@ -1,6 +1,6 @@
 .fitter-product-category {
     width: 306px;
-    height: 1005.97px;
+    height: fit-content;
     flex-shrink: 0;
     border-radius: 5px;
     border: 1px solid #E9E9E9;
@@ -142,7 +142,7 @@ td>p {
 }
 
 .product-category-content{
-    padding: 25px 0px;
+    padding: 5px 0px;
 }
 .choose-price{
     padding: 25px 0px;
@@ -152,4 +152,29 @@ td.col2{
 }
 td.col3{
     width: 60px !important
+}
+
+span.product-tag{
+    display: inline-block;
+    width: fit-content;
+    height: 32px;
+    padding: 6px 15.669px 6px 16px;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #E9E9E9;
+    background: #FFF;
+    color: #7A7A7A;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 214.286% */
+    letter-spacing: 0.48px;
+    text-transform: capitalize;
+}
+.product-category-tag{
+    width: 256px;
 }
